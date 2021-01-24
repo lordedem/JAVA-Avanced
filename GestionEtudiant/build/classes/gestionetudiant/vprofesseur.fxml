@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+   <children>
+      <Pane layoutX="54.0" layoutY="35.0" prefHeight="330.0" prefWidth="492.0" style="-fx-background-color: pink;">
+         <children>
+            <Text layoutX="53.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste Professeurs" />
+            <Text layoutX="305.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classe" />
+            <MenuButton layoutX="365.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <Text layoutX="354.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modules Enseignes" />
+            <TableView layoutX="276.0" layoutY="99.0" prefHeight="200.0" prefWidth="200.0">
+              <columns>
+                <TableColumn prefWidth="109.66668701171875" text="Libelle" />
+                <TableColumn prefWidth="87.6666259765625" text="Classe" />
+              </columns>
+            </TableView>
+            <TableView layoutX="14.0" layoutY="49.0" prefHeight="200.0" prefWidth="200.0">
+              <columns>
+                <TableColumn prefWidth="58.333343505859375" text="id" />
+                <TableColumn prefWidth="68.66665649414062" text="Nom" />
+                  <TableColumn prefWidth="71.0" text="Grade" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
